@@ -1,6 +1,14 @@
 # Project info
 site_name: IVAO Switzerland Documentation
 theme: 'material'
+site_author: Gianluca Belardinelli for IVAO Switzerland
+site_url: https://Diesel8.github.io/test/
+edit_uri: edit/master/docs/
+ 
+     
+# Repository
+repo_name: Diesel8/test
+repo_url: https://github.com/Diesel8/test
 
 # Theme
 extra:
