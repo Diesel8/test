@@ -1,0 +1,87 @@
+# Project info
+site_name: IVAO Switzerland Documentation
+theme: 'material'
+site_author: Gianluca Belardinelli for IVAO Switzerland
+site_url: https://ivaoch.github.io/ivaochdoc/
+edit_uri: edit/master/docs/
+
+# Theme
+extra:
+  palette:
+    primary: 'red'
+    accent: 'light blue'
+  social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/IVAO.Switzerland'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+      
+# Repository
+repo_name: ivaoch/ivaochdoc
+repo_url: https://github.com/ivaoch/ivaochdoc
+
+# Copyright
+copyright: 'Copyright &copy; 2017 IVAO Switzerland'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+
+# Pages   
+pages:
+  - Index: index.md
+  #- Getting started: start.md
+  #- Quickstart:
+    #- ATC Positions: quickstart/atc_position.md
+    #- ATIS: quickstart/atis.md
+    #- Airspaces: quickstart/airspaces.md
+    #- Regional Aerodrome: quickstart/regaerodrome.md
+  #- Swiss Radar:
+    #- LOAs: swissradar/loas.md
+    #- Overview: swissradar/overview.md
+    #- Procedures: swissradar/procedures.md
+  #- Zürich FIR:
+    #- Overview: zurichfir/zurichfir.md
+    #- Airports:
+      #- Lugano (LSZA): zurichfir/airports/lsza.md
+      #- Bern (LSZB): zurichfir/airports/lszb.md
+      #- Grenchen (LSZG): zurichfir/airports/lszg.md
+      #- Zürich (LSZH): zurichfir/airports/lszh.md
+      #- St. Gallen (LSZR): zurichfir/airports/lszr.md
+      #- Samedan (LSZS): zurichfir/airports/lszs.md
+      #- Friedrichshafen (EDNY): zurichfir/airports/edny.md
+  #- Geneva FIR:
+    #- Overview: genevafir/genevafir.md
+    #- Airports:
+      #- Les Eplatures (LSGC): genevafir/airports/lsgc.md
+      #- Geneva (LSGG): genevafir/airports/lsgg.md
+      #- Sion (LSGS): genevafir/airports/lsgs.md
+  - IVAC2:
+    - Introduction: ivac2/introduction.md
+    - Maps: ivac2/maps.md
+    - Presets & Insets: ivac2/presets.md
+    - Labels: ivac2/labels.md
+    - ATC Info Box: ivac2/atcinfo.md
+    - DCL Datalink Clearance: ivac2/dcl.md
+    - Options: ivac2/options.md
+    - FAQ: ivac2/faq.md
+  - Contribute: contribute/index.md
